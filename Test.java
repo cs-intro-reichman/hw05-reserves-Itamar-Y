@@ -1,4 +1,4 @@
-public class Test {
+public class ignoreTest {
 
     public static void main(String[] args) {
         String fileName = args[0];
@@ -19,7 +19,6 @@ public class Test {
     // Reads the data file, and runs a test that checks
     // the count and cellValue functions.
     private static void test2(String fileName) {
-        int[][] board = read(fileName);
         int[][] board = read(fileName);
 		int rows = board.length;
 		int cols = board[0].length;
@@ -157,7 +156,7 @@ public class Test {
 
         for (int i = 1; i < rows - 1; i++) {
             for (int j = 1; j < cols - 1; j++) {
-                System.out.print(arr[i][j] + " ");
+                System.out.print("  " + arr[i][j]);
             }
             System.out.println();
         }
