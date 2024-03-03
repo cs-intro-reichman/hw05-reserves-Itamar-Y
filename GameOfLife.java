@@ -163,7 +163,7 @@ public class GameOfLife {
 
 		for (int i = 1; i < rows -1; i++) {
 			for (int j= 1; j < cols -1; j++){
-				System.out.print(arr[i][j] + "  ");
+				System.out.print("  " + arr[i][j]);
 			}
 			System.out.println();	
 		}
